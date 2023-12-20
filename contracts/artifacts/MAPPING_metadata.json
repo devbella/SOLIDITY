@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "home_address",
+								"type": "string"
+							}
+						],
+						"internalType": "struct MAPPING.Student1",
+						"name": "_s1",
+						"type": "tuple"
+					}
+				],
+				"name": "setStudent1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "home_address",
+								"type": "string"
+							}
+						],
+						"internalType": "struct MAPPING.Student2",
+						"name": "_s2",
+						"type": "tuple"
+					}
+				],
+				"name": "setStudent2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mapping3_gasfeeCompare.sol": "MAPPING"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mapping3_gasfeeCompare.sol": {
+			"keccak256": "0xc2f0b116c6f0aa3c30e1d62d6be281c2f26a6e06da3d0ee2cfe12f1739d842b7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a042138bb3a4883e59e8d228b8499478e042d8922dcf02a07c23dca41c09d65c",
+				"dweb:/ipfs/QmRM94QXKfWwCgwhEZYVQGHCSmLXNtmyjXD3JBQLtSzqLo"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_classes",
+						"type": "string[]"
+					}
+				],
+				"name": "setStudent1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/student4.sol": "STRUCT"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/student4.sol": {
+			"keccak256": "0xfe6df99e310a21091f241da6d01947e908d45e3c98d9e36e617004f687d1d94c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c2b9f7d7ab6f2e06866a62f7fa6b34d69e04fc0e1937485a34476ead36d5d532",
+				"dweb:/ipfs/QmPfDHAm9CnUYk9N4VuygJSs8wKCUiq5ZngyWGmiPoBW4q"
+			]
+		}
+	},
+	"version": 1
+}
